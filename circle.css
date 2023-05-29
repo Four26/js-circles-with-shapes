@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.square {
+    position: absolute;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.rectangle {
+    position: absolute;
+    width: 70px;
+    height: 35px;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#container {
+    margin: auto;
+    width: 1500px;
+    height: 600px;
+}
+
+.color-option {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.color-option:hover {
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.shape-option {
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+#reset-button {
+    color: #fff;
+    background: #d51010;
+    border: 3px solid #d51010;
+    min-height: 48px;
+    padding: 12px 34px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: plex-sans, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: #610404;
+    border: 3px solid #610404;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+#round {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+#square {
+    border-radius: 0%;
+    width: 35px;
+    height: 35px;
+}
+
+#rectangle {
+    border-radius: 0%;
+    width: 70px;
+    height: 35px;
+}
+
+/* #star {
+    position: relative;
+
+    display: inline-block;
+    width: 0;
+    height: 0;
+
+    margin-left: .9em;
+    margin-right: .9em;
+    margin-bottom: 1.2em;
+
+    border-right: .3em solid transparent;
+    border-bottom: .7em solid #e7e0d0;
+    border-left: .3em solid transparent;
+    border-top: .3em solid transparent;
+    font-size: 24px;
+}
+
+#star:before, #star:after {
+    content: '';
+
+    display: block;
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    top: .6em;
+    left: -1em;
+
+    border-right: 1em solid transparent;
+    border-bottom: .7em solid #e7e0d0;
+    border-left: 1em solid transparent;
+
+    transform: rotate(-35deg);
+}
+
+#star:after {
+    transform: rotate(35deg);
+} */
